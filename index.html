@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Space History Shorts Publisher</title>
+<style>
+  :root { color-scheme: dark; }
+  body { font: 16px/1.7 system-ui, -apple-system, Segoe UI, sans-serif;
+         background: #050506; color: #e8e2d5; margin: 0;
+         padding: 56px 24px; }
+  main { max-width: 680px; margin: 0 auto; }
+  h1 { color: #d4a24e; font-weight: 600; font-size: 1.9rem; margin: 0 0 4px; }
+  h2 { color: #d4a24e; font-weight: 600; font-size: 1.1rem; margin: 36px 0 8px; }
+  .sub { color: #8d8a80; margin: 0 0 32px; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  a { color: #d4a24e; }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid #23211c;
+           color: #8d8a80; font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Space History Shorts Publisher</h1>
+  <p class="sub">A personal tool for publishing my own educational space-history videos.</p>
+
+  <p>
+    I make short educational videos about early NASA missions — Pioneer, Mercury,
+    Ranger, TIROS and others — built entirely from public-domain archival
+    material with narration checked against NASA sources.
+  </p>
+
+  <p>
+    This tool renders those videos, writes a caption for each one, and publishes
+    them to <strong>my own social accounts</strong> on a fixed daily schedule. It
+    runs on my own computer. It is not a product, not a service, and has no users
+    other than me.
+  </p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Renders a finished video file from a script and archival images</li>
+    <li>Generates a caption and hashtags for each platform</li>
+    <li>Publishes on a schedule to accounts I own and have authorised</li>
+    <li>Records whether each post succeeded, so failures can be retried</li>
+  </ul>
+
+  <h2>TikTok integration</h2>
+  <p>
+    The tool uses TikTok's Login Kit to authorise my own account, and the Content
+    Posting API to publish one already-rendered video per day to that account.
+    Before each post it queries the creator information endpoint so that the
+    privacy options and interaction settings my account actually allows are
+    respected rather than assumed.
+  </p>
+  <p>
+    It never posts to any account but mine, and it cannot be used by anyone else.
+  </p>
+
+  <h2>Content and sources</h2>
+  <p>
+    Imagery is public-domain material from NASA, NSSDCA, the U.S. Air Force and
+    Wikimedia Commons, credited on screen in every video. This is an independent
+    educational project and is not affiliated with, endorsed by, or sponsored by
+    NASA or any government agency.
+  </p>
+
+  <footer>
+    <a href="terms.html">Terms of Service</a> &middot;
+    <a href="privacy.html">Privacy Policy</a>
+    <br>Last updated 26 July 2026.
+  </footer>
+</main>
+</body>
+</html>
